@@ -41,16 +41,7 @@ JobSniper é uma plataforma inteligente de busca e aplicação automatizada de v
 
 ### Fluxo de Dados do Sistema
 
-1. Cliente faz request → Nginx (rate limit + SSL)
-2. API Node.js/TypeScript recebe request
-3. CacheManager verifica cache compartilhado
-   - Cache Hit: Retorna dados em < 500ms
-   - Cache Miss: Cria job no BullMQ
-4. Python Worker executa scraping paralelo
-5. Deduplica e enriquece
-6. Salva no cache compartilhado
-7. Notifica usuários interessados
-8. Retorna resposta
+![Diagrama](https://codde.dev/diagram_cache.png)
 
 ## 📁 Estrutura Completa do Projeto
 
@@ -758,6 +749,10 @@ Request → Verify JWT → Extract User → Process
 
 Este README foi criado para ser completamente compreensível por sistemas LLM, contendo todos os detalhes técnicos, arquiteturais e operacionais necessários para continuar o desenvolvimento do projeto.
 
+### Screenshot da tela inicial
+
 ![Screenshot JobSniper](https://codde.dev/jobsniper_screen1.png)
+
+### Screenshot de Vantagens
 
 ![Screenshot JobSniper](https://codde.dev/jobsniper_screen2.png)
