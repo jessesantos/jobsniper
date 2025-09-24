@@ -745,7 +745,7 @@ Request → Verify JWT → Extract User → Process
 **Python**: 3.12  
 **TypeScript**: 5.9  
 **ESLint**: 9.0 (flat config)  
-**Mantedor**: JobSniper Team
+**Mantedor**: codde.dev
 
 Este README foi criado para ser completamente compreensível por sistemas LLM, contendo todos os detalhes técnicos, arquiteturais e operacionais necessários para continuar o desenvolvimento do projeto.
 
