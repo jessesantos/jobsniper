@@ -757,3 +757,7 @@ Request → Verify JWT → Extract User → Process
 **Mantedor**: JobSniper Team
 
 Este README foi criado para ser completamente compreensível por sistemas LLM, contendo todos os detalhes técnicos, arquiteturais e operacionais necessários para continuar o desenvolvimento do projeto.
+
+![Screenshot JobSniper](https://codde.dev/jobsniper_screen1.png)
+
+![Screenshot JobSniper](https://codde.dev/jobsniper_screen2.png)
