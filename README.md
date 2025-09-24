@@ -41,7 +41,7 @@ JobSniper é uma plataforma inteligente de busca e aplicação automatizada de v
 
 ### Fluxo de Dados do Sistema
 
-![Diagrama](https://codde.dev/diagram_cache.png)
+![Diagrama](https://codde.dev/diagram_cache.jpg)
 
 ## 📁 Estrutura Completa do Projeto
 
